@@ -1,0 +1,204 @@
+/*--------------------------------------------
+Mixins
+---------------------------------------------*/
+@mixin transition($property: all, $time: 0.5s, $easing: linear) {
+	-webkit-transition: $property $time $easing;
+		 -moz-transition: $property $time $easing;
+				  transition: $property $time $easing;
+}
+@mixin delay($time: .2s) {
+	-webkit-animation-delay: $time;
+     -moz-animation-delay: $time;
+          animation-delay: $time;
+}
+@mixin slideDown($time: 0.65s, $delay: .1s) {
+  -webkit-animation: slideDown $time $delay ease forwards;
+     -moz-animation: slideDown $time $delay ease forwards;
+       -o-animation: slideDown $time $delay ease forwards;
+          animation: slideDown $time $delay ease forwards;
+  opacity: 0;
+}
+@mixin slideUp($time: 0.65s, $delay: .1s) {
+  -webkit-animation: slideUp $time $delay ease forwards;
+     -moz-animation: slideUp $time $delay ease forwards;
+       -o-animation: slideUp $time $delay ease forwards;
+          animation: slideUp $time $delay ease forwards;
+  opacity: 0;
+}
+@mixin flipInY($time: 0.65s, $delay: .1s) {
+	-webkit-animation: flipInY $time $delay ease forwards;
+	   -moz-animation: flipInY $time $delay ease forwards;
+	     -o-animation: flipInY $time $delay ease forwards;
+	        animation: flipInY $time $delay ease forwards;
+	opacity: 0;	
+}
+@mixin flipOutY($time: 0.65s, $delay: .1s) {
+	-webkit-animation: flipOutY $time $delay ease forwards;
+	   -moz-animation: flipOutY $time $delay ease forwards;
+	     -o-animation: flipOutY $time $delay ease forwards;
+	        animation: flipOutY $time $delay ease forwards;
+	opacity: 0;	
+}
+@mixin flipInX($time: 0.65s, $delay: .1s) {
+	-webkit-animation: flipInX $time $delay ease forwards;
+	   -moz-animation: flipInX $time $delay ease forwards;
+	     -o-animation: flipInX $time $delay ease forwards;
+	        animation: flipInX $time $delay ease forwards;
+	opacity: 0;	
+}
+@mixin fadeInDown($time: 0.65s, $delay: .1s) {
+	-webkit-animation: fadeInDown $time $delay ease forwards;
+	   -moz-animation: fadeInDown $time $delay ease forwards;
+	     -o-animation: fadeInDown $time $delay ease forwards;
+	        animation: fadeInDown $time $delay ease forwards;
+	opacity: 0;	
+}
+@mixin fadeInLeft($time: 0.65s, $delay: .1s) {
+	-webkit-animation: fadeInLeft $time $delay ease forwards;
+	   -moz-animation: fadeInLeft $time $delay ease forwards;
+	     -o-animation: fadeInLeft $time $delay ease forwards;
+	        animation: fadeInLeft $time $delay ease forwards;
+	opacity: 0;	
+}
+@mixin fadeIn($time: 0.65s, $delay: .1s) {
+	-webkit-animation: fadeIn $time $delay ease forwards;
+	   -moz-animation: fadeIn $time $delay ease forwards;
+	     -o-animation: fadeIn $time $delay ease forwards;
+	        animation: fadeIn $time $delay ease forwards;
+	opacity: 0;	
+}
+/*--------------------------------------------
+Animations
+---------------------------------------------*/
+.cssanimations.no-touch {
+
+	.animate-flip,
+	.animate-slide,
+	.animate-fade {
+		.program,
+		.coach_box,
+		.gallery .wall_entry,
+		.fc-event,
+		.post { opacity: 0; }
+	}
+	
+	/*--------------------------------------------
+	Global animations
+	---------------------------------------------*/
+
+	// Header
+	header.slideUp { top: -60px; }
+
+	.admin-bar header.slideDown.stuck { top: 28px; }
+
+	header {
+		@include transition(all, 0.5s, linear);
+
+	  .wrapper { @include transition(all, 0.2s, linear); }
+	}
+	
+	// Links
+	a { @include transition(color, 0.3s, linear); }
+
+	// Footer carousel
+	.widget.icon_box span{ @include transition(all, 0.3s, linear); }
+
+	// Programs
+	.program {
+
+		.hover {
+		  @include transition(opacity, 0.2s, linear);
+
+		  .buttons { @include transition(all, 0.2s, ease-in); }
+		}
+
+		&:hover {
+			.buttons {
+				top: 50%;
+				opacity: 1;
+			}
+		}
+
+	}
+
+	// Coaches
+	.coach_box .inner{
+		@include transition(all, 0.5s, linear);
+	}
+
+	/*--------------------------------------------
+	Flip animations
+	---------------------------------------------*/
+	.animate-flip {
+		// Header
+		header {
+		  .logo { @include flipInY(1.5s, 0s); }
+		}
+
+		nav { @include fadeIn(1.5s, .5s); }
+
+		// Calendar
+		.fc-event { @include flipInY(1.5s, 0s); }
+
+		// Coaches
+		.coach_box.animate { @include flipInX(1.2s, 0s); }
+		.program.animate { @include flipInX(1.2s, 0s); }
+
+		// Gallery
+		.gallery .wall_entry.animate { @include flipInX(1.2s, 0s); }
+
+		// Blog
+		.post.animate { @include flipInX(1.2s, 0s); }
+	}
+
+	/*--------------------------------------------
+	Slide animations
+	---------------------------------------------*/
+	.animate-slide {
+		// Header
+		header {
+		  .logo { @include fadeInDown(1.5s, 0s); }
+		}
+
+		nav { @include fadeIn(1.5s, 0s); }
+
+		// Calendar
+		.fc-event { @include fadeInDown(1.5s, 0s); }
+
+		// Coaches
+		.coach_box.animate { @include fadeInDown(1.2s, 0s); }
+		.program.animate { @include fadeInDown(1.2s, 0s); }
+
+		// Gallery
+		.gallery .wall_entry.animate { @include fadeInDown(1.2s, 0s); }
+
+		// Blog
+		.post.animate { @include fadeInDown(1.2s, 0s); }
+	}
+
+	/*--------------------------------------------
+	Fade animations
+	---------------------------------------------*/
+	.animate-fade {
+		// Header
+		header {
+		  .logo { @include fadeIn(1.5s, 0s); }
+		}
+
+		nav { @include fadeIn(1.5s, 0s); }
+
+		// Calendar
+		.fc-event { @include fadeIn(1.5s, 0s); }
+
+		// Coaches
+		.coach_box.animate { @include fadeIn(1.2s, 0s); }
+		.program.animate { @include fadeIn(1.2s, 0s); }
+
+		// Gallery
+		.gallery .wall_entry.animate { @include fadeIn(1.2s, 0s); }
+
+		// Blog
+		.post.animate { @include fadeIn(1.2s, 0s); }
+	}
+
+}

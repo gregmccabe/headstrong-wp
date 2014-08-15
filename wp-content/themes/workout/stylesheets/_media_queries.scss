@@ -1,0 +1,202 @@
+/*-----------------------------------------------------------------------------------
+
+	Theme Name: Chroma
+	Author: Two2Twelve Themes
+	Author URI: http://t2themes.com
+	
+	Stylesheet: Media Queries
+	
+-----------------------------------------------------------------------------------*/
+
+/* For iPads and Tablets */
+@media screen and (min-width:751px) and (max-width:970px) {
+
+	img {
+		width: 100%;
+	}
+	
+	.image img {
+		width: 730px;
+	}
+
+	.one_half img,
+	.one_third img,
+	.one_fourth img{
+		width: 100% !important;
+	}
+	
+	header .logo img,
+	div.testimonials > div img { width: auto !important; }
+
+	// Programs
+	.program {
+		.hover { display: none; }
+		&:hover {
+			.hover { display: none; }
+		}
+	}
+
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 46%;
+	}
+
+}
+/* For iPhones and Mobile */
+@media only screen and (max-width:750px) {
+
+	header {
+		.logo {
+			font-size: 25px;
+			padding-left: 10px;
+		}
+		.fancy-select { display: block; }
+		nav ul:first-child { display: none; }
+		.menu-icon { display: block; }
+		nav select { display: block; }
+		header.centered .logo { margin-bottom: 0; padding-bottom: 0; }
+		.logo img { width: 125px; height: auto !important; }
+	}
+
+	header.stuck {
+		.logo {
+			font-size: 25px;
+			padding-left: 10px;
+		}
+	}
+
+	#content, section { padding: 20px; }
+
+	// Homepage
+	.featured_testimonials .testimonial {
+		.content {
+			font-size: 14px;
+			line-height: 24px;
+		}
+	}
+
+	// Programs
+	.program {
+		.thumbnail {
+			height: 200px;
+			width: 100%;
+			overflow: hidden;
+
+			img {
+				float: none;
+				display: block;
+				width: 100%;
+				height: auto;
+			}
+		}
+		.icon_thumbnail {
+			float: none;
+			width: 100%
+		}
+		.inner {
+			margin-left: 0;
+			height: auto;
+		}
+		.hover { display: none; }
+		&:hover {
+			.hover { display: none; }
+		}
+	}
+
+	// Blog 
+	.post {
+		.inner { padding: 30px !important; }
+	}
+
+	article.calendar {
+		.inner {
+			padding: 25px 30px 25px 0px;
+		}
+	}
+	
+	.nav-arrows span { height: 22px; width: 22px; }
+	
+	.slide-content .caption { font-size: 15px; }
+	
+	div.sidebar_right .page_content,
+	div.sidebar_left .page_content{
+		width: 100%;
+		float: none;
+	}
+	div.sidebar_right .sidebar,
+	div.sidebar_left .sidebar {
+		width: 100%;
+		float: none;
+	}
+
+	img {
+		width: 100%;
+	}
+	
+	.widget .gallery .photo {
+		width: 15%;
+		float: left;
+	}
+	.widget .gallery .photo.column_last { margin-right: 5px !important; }
+
+	#searchform #s { width: 92%; float: none; margin-bottom: 15px; }
+	#searchform #searchsubmit { float: none; }
+
+	.gallery > div {
+		width: 100% !important;
+	}
+
+	.post .inner { padding: 25px; }
+
+	.post h1 { font-size: 25px !important; }
+
+	footer#standard {
+		.container { padding: 0px 20px; }
+	}
+
+	.special {
+		padding: 20px;
+
+		.sash {
+			font-size: 18px;
+			float: none;
+			width: 100%;
+			margin-bottom: 15px;
+
+			.inner {
+				padding: 15px;
+			}
+		}
+
+		.content {
+			float: none;
+			width: 100%;
+		}
+
+		.content .excerpt {
+			font-size: 18px;
+		}
+
+		.content .date {
+			font-size: 13px;
+		}
+
+		.content .code {
+			margin-bottom: 15px;
+		}
+
+		.content .button {
+			margin-left: 0;
+			float: none;
+		}
+	}
+
+	.coach_photo { float: none; margin-bottom: 25px; }
+	.coach_photo img{ margin: 0 auto; }
+	.coach_info { margin-left: 0; }
+
+	.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+		width: 100%;
+		float: none;
+	}
+	
+}

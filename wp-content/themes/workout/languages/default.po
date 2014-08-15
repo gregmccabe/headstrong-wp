@@ -1,0 +1,1005 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Crossfit\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-03-05 12:09-0800\n"
+"PO-Revision-Date: 2014-03-05 12:09-0800\n"
+"Last-Translator: Two2Twelve Themes <info@two2twelve.com>\n"
+"Language-Team: T2Themes <info@t2themes.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: comments.php:22
+msgid "Leave a reply"
+msgstr ""
+
+#: footer.php:5
+msgid "Copyright"
+msgstr ""
+
+#: functions.php:124
+#: header.php:68
+msgid "Blog"
+msgstr ""
+
+#: functions.php:125
+msgid "Appears on the blog template."
+msgstr ""
+
+#: functions.php:134
+msgid "Page"
+msgstr ""
+
+#: functions.php:135
+msgid "Appears on page templates."
+msgstr ""
+
+#: functions.php:144
+msgid "Footer Widget 1"
+msgstr ""
+
+#: functions.php:145
+#: functions.php:155
+#: functions.php:165
+#: functions.php:175
+msgid "Appears in the footer area."
+msgstr ""
+
+#: functions.php:154
+msgid "Footer Widget 2"
+msgstr ""
+
+#: functions.php:164
+msgid "Footer Widget 3"
+msgstr ""
+
+#: functions.php:174
+msgid "Footer Widget 4"
+msgstr ""
+
+#: functions.php:234
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:616
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: header.php:83
+msgid "Tag"
+msgstr ""
+
+#: header.php:87
+msgid "Category"
+msgstr ""
+
+#: includes/customizer.php:96
+msgid "Theme Options"
+msgstr ""
+
+#: includes/customizer.php:103
+msgid "Logo Upload"
+msgstr ""
+
+#: includes/customizer.php:111
+msgid "Retina Logo Upload"
+msgstr ""
+
+#: includes/customizer.php:120
+msgid "Favicon Upload"
+msgstr ""
+
+#: includes/customizer.php:129
+msgid "Theme Color"
+msgstr ""
+
+#: includes/customizer.php:143
+#: includes/meta_boxes.php:105
+msgid "Accent Color"
+msgstr ""
+
+#: includes/customizer.php:152
+msgid "Header Style"
+msgstr ""
+
+#: includes/customizer.php:166
+msgid "Animation Style"
+msgstr ""
+
+#: includes/customizer.php:182
+msgid "Scheduling Interval"
+msgstr ""
+
+#: includes/customizer.php:197
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/customizer.php:206
+msgid "Custom JS"
+msgstr ""
+
+#: includes/customizer.php:215
+msgid "Analytics Code"
+msgstr ""
+
+#: includes/customizer.php:224
+msgid "Map Styles"
+msgstr ""
+
+#: includes/customizer.php:245
+msgid "Theme Backgrounds"
+msgstr ""
+
+#: includes/customizer.php:252
+msgid "Header Background"
+msgstr ""
+
+#: includes/customizer.php:261
+msgid "Header Repeat"
+msgstr ""
+
+#: includes/customizer.php:280
+msgid "Header Color"
+msgstr ""
+
+#: includes/customizer.php:296
+msgid "Theme Social Options"
+msgstr ""
+
+#: includes/customizer.php:298
+msgid "Adds social icons to the footer of your site."
+msgstr ""
+
+#: includes/customizer.php:303
+msgid "Icon Style"
+msgstr ""
+
+#: includes/customizer.php:317
+msgid "Twitter URL"
+msgstr ""
+
+#: includes/customizer.php:325
+msgid "Facebook URL"
+msgstr ""
+
+#: includes/customizer.php:333
+msgid "Flickr URL"
+msgstr ""
+
+#: includes/customizer.php:341
+msgid "Vimeo URL"
+msgstr ""
+
+#: includes/customizer.php:349
+msgid "Pinterest URL"
+msgstr ""
+
+#: includes/customizer.php:357
+msgid "LinkedIn URL"
+msgstr ""
+
+#: includes/customizer.php:365
+msgid "Last.fm URL"
+msgstr ""
+
+#: includes/customizer.php:373
+msgid "Skype URL"
+msgstr ""
+
+#: includes/customizer.php:381
+msgid "Email Address"
+msgstr ""
+
+#: includes/meta_boxes.php:9
+msgid "Date"
+msgstr ""
+
+#: includes/meta_boxes.php:10
+msgid "Date this WOD will be programmed."
+msgstr ""
+
+#: includes/meta_boxes.php:27
+#: includes/shortcodes.php:566
+msgid "Layout Style"
+msgstr ""
+
+#: includes/meta_boxes.php:28
+#: includes/shortcodes.php:567
+msgid "Choose the style of layout in which these photos will be displayed."
+msgstr ""
+
+#: includes/meta_boxes.php:30
+#: includes/shortcodes.php:569
+msgid "Grid"
+msgstr ""
+
+#: includes/meta_boxes.php:31
+#: includes/shortcodes.php:570
+msgid "Grid (Full Width)"
+msgstr ""
+
+#: includes/meta_boxes.php:32
+#: includes/shortcodes.php:571
+msgid "Masonry"
+msgstr ""
+
+#: includes/meta_boxes.php:33
+#: includes/shortcodes.php:572
+msgid "Masonry (Full Width)"
+msgstr ""
+
+#: includes/meta_boxes.php:39
+msgid "Number of Photos Per Row"
+msgstr ""
+
+#: includes/meta_boxes.php:40
+#, php-format
+msgid "Choose how many photos you'd like displayed on each row of this %1$s."
+msgstr ""
+
+#: includes/meta_boxes.php:47
+msgid "Allow Comments"
+msgstr ""
+
+#: includes/meta_boxes.php:48
+#, php-format
+msgid "Allow comments to be posted on photos in this %1$s."
+msgstr ""
+
+#: includes/meta_boxes.php:50
+#: includes/meta_boxes.php:75
+#: includes/meta_boxes.php:97
+#: includes/shortcodes.php:613
+#: includes/page_template_options/template-home.php:54
+#: includes/page_template_options/template-home.php:82
+#: includes/page_template_options/template-home.php:110
+#: includes/page_template_options/template-home.php:138
+#: includes/page_template_options/template-home.php:215
+msgid "Yes"
+msgstr ""
+
+#: includes/meta_boxes.php:51
+#: includes/meta_boxes.php:76
+#: includes/meta_boxes.php:98
+#: includes/shortcodes.php:614
+#: includes/page_template_options/template-home.php:55
+#: includes/page_template_options/template-home.php:83
+#: includes/page_template_options/template-home.php:111
+#: includes/page_template_options/template-home.php:139
+#: includes/page_template_options/template-home.php:216
+msgid "No"
+msgstr ""
+
+#: includes/meta_boxes.php:72
+msgid "Enable Carousel"
+msgstr ""
+
+#: includes/meta_boxes.php:73
+msgid "Enable floating carousel for this page."
+msgstr ""
+
+#: includes/meta_boxes.php:94
+msgid "Show Schedule"
+msgstr ""
+
+#: includes/meta_boxes.php:95
+#, php-format
+msgid "Whether or not to show the schedule for this %1$s."
+msgstr ""
+
+#: includes/meta_boxes.php:106
+#, php-format
+msgid "Color to use for displaying this %1$s."
+msgstr ""
+
+#: includes/meta_boxes.php:198
+msgid "Button Post"
+msgstr ""
+
+#: includes/meta_boxes.php:199
+msgid "Choose a post you'd like to link to"
+msgstr ""
+
+#: includes/meta_boxes.php:201
+msgid "Select a Post"
+msgstr ""
+
+#: includes/meta_boxes.php:206
+msgid "Button Text"
+msgstr ""
+
+#: includes/meta_boxes.php:207
+msgid "Text to display on the button. <b>Default: </b> \"View _PostType_\""
+msgstr ""
+
+#: includes/meta_boxes.php:212
+msgid "Button Color"
+msgstr ""
+
+#: includes/meta_boxes.php:213
+msgid "Background color of the button"
+msgstr ""
+
+#: includes/meta_boxes.php:220
+msgid "Button Text Color"
+msgstr ""
+
+#: includes/meta_boxes.php:221
+msgid "Text color of the button"
+msgstr ""
+
+#: includes/meta_boxes.php:243
+msgid "Subtitle"
+msgstr ""
+
+#: includes/meta_boxes.php:244
+msgid "Text to display under the title."
+msgstr ""
+
+#: includes/plugins.php:155
+msgid "Install Required Plugins"
+msgstr ""
+
+#: includes/plugins.php:156
+msgid "Install Plugins"
+msgstr ""
+
+#: includes/plugins.php:157
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: includes/plugins.php:158
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/plugins.php:169
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: includes/plugins.php:170
+msgid "Return to the dashboard"
+msgstr ""
+
+#: includes/plugins.php:171
+#: includes/plugins.php:1840
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: includes/plugins.php:172
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: includes/plugins.php:173
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: includes/plugins.php:174
+msgid "Dismiss this notice"
+msgstr ""
+
+#: includes/plugins.php:1085
+msgid "External Link"
+msgstr ""
+
+#: includes/plugins.php:1090
+msgid "Private Repository"
+msgstr ""
+
+#: includes/plugins.php:1093
+msgid "Pre-Packaged"
+msgstr ""
+
+#: includes/plugins.php:1097
+msgid "WordPress Repository"
+msgstr ""
+
+#: includes/plugins.php:1100
+msgid "Required"
+msgstr ""
+
+#: includes/plugins.php:1100
+msgid "Recommended"
+msgstr ""
+
+#: includes/plugins.php:1103
+msgid "Not Installed"
+msgstr ""
+
+#: includes/plugins.php:1105
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: includes/plugins.php:1275
+#, php-format
+msgid "No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: includes/plugins.php:1291
+msgid "Plugin"
+msgstr ""
+
+#: includes/plugins.php:1292
+msgid "Source"
+msgstr ""
+
+#: includes/plugins.php:1293
+msgid "Type"
+msgstr ""
+
+#: includes/plugins.php:1294
+msgid "Status"
+msgstr ""
+
+#: includes/plugins.php:1312
+msgid "Install"
+msgstr ""
+
+#: includes/plugins.php:1313
+msgid "Activate"
+msgstr ""
+
+#: includes/plugins.php:1823
+msgid "Install package not available."
+msgstr ""
+
+#: includes/plugins.php:1824
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: includes/plugins.php:1825
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: includes/plugins.php:1826
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: includes/plugins.php:1827
+msgid "Plugin install failed."
+msgstr ""
+
+#: includes/plugins.php:1828
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: includes/plugins.php:1839
+msgid "Plugin activation failed."
+msgstr ""
+
+#: includes/plugins.php:1949
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins.php:1950
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: includes/plugins.php:1950
+#: includes/plugins.php:1959
+msgid "Show Details"
+msgstr ""
+
+#: includes/plugins.php:1950
+#: includes/plugins.php:1959
+msgid "Hide Details"
+msgstr ""
+
+#: includes/plugins.php:1951
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: includes/plugins.php:1952
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins.php:1956
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+#: includes/plugins.php:1957
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: includes/plugins.php:1958
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: includes/plugins.php:1959
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: includes/plugins.php:1960
+msgid "All installations have been completed."
+msgstr ""
+
+#: includes/plugins.php:1961
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: includes/plugins.php:2052
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: includes/shortcodes.php:117
+msgid "Post Format"
+msgstr ""
+
+#: includes/shortcodes.php:118
+msgid "Select a specfic post format to display."
+msgstr ""
+
+#: includes/shortcodes.php:120
+msgid "Select a Post Format"
+msgstr ""
+
+#: includes/shortcodes.php:309
+#: includes/shortcodes.php:1184
+#, php-format
+msgid "View %1$s"
+msgstr ""
+
+#: includes/shortcodes.php:386
+msgid "A post_id is required to render a album."
+msgstr ""
+
+#: includes/shortcodes.php:502
+#: includes/shortcodes.php:532
+#: includes/shortcodes.php:634
+#: includes/page_template_options/template-home.php:149
+#: includes/shortcodes/t2t_shortcode_highlighted_gallery.class.php:26
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:26
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:26
+msgid "All"
+msgstr ""
+
+#: includes/shortcodes.php:559
+#: includes/shortcodes/t2t_shortcode_highlighted_gallery.class.php:57
+#, php-format
+msgid "%1$s"
+msgstr ""
+
+#: includes/shortcodes.php:560
+#: includes/shortcodes/t2t_shortcode_highlighted_gallery.class.php:58
+#, php-format
+msgid "Choose the %1$s you'd like displayed."
+msgstr ""
+
+#: includes/shortcodes.php:578
+#: includes/shortcodes/t2t_shortcode_highlighted_gallery.class.php:64
+msgid "Number of Images"
+msgstr ""
+
+#: includes/shortcodes.php:579
+#: includes/shortcodes/t2t_shortcode_highlighted_gallery.class.php:65
+msgid "Choose how many images you'd like displayed."
+msgstr ""
+
+#: includes/shortcodes.php:586
+msgid "Number of Images Per Row"
+msgstr ""
+
+#: includes/shortcodes.php:587
+msgid "Choose how many images you'd like displayed on each row."
+msgstr ""
+
+#: includes/shortcodes.php:610
+msgid "Show Category Filter?"
+msgstr ""
+
+#: includes/shortcodes.php:611
+#, php-format
+msgid "Whether or not to include a list of categories that will allow visitors to filter your %1$s."
+msgstr ""
+
+#: includes/shortcodes.php:656
+#: includes/page_template_options/template-home.php:174
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:46
+#, php-format
+msgid "Number of %1$s"
+msgstr ""
+
+#: includes/shortcodes.php:657
+#: includes/page_template_options/template-home.php:175
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:47
+#, php-format
+msgid "Choose how many %1$s you'd like displayed."
+msgstr ""
+
+#: includes/shortcodes.php:664
+#: includes/page_template_options/template-home.php:182
+#, php-format
+msgid "Number of %1$s Per Row"
+msgstr ""
+
+#: includes/shortcodes.php:665
+#: includes/page_template_options/template-home.php:183
+#, php-format
+msgid "Choose how many %1$s you'd like displayed on each row."
+msgstr ""
+
+#: includes/shortcodes.php:673
+#: includes/page_template_options/template-home.php:191
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:54
+#, php-format
+msgid "%1$s Description Length"
+msgstr ""
+
+#: includes/shortcodes.php:674
+#: includes/page_template_options/template-home.php:192
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:55
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:62
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:55
+msgid "How many characters should be displayed before truncating."
+msgstr ""
+
+#: includes/shortcodes.php:703
+msgid "Learn More"
+msgstr ""
+
+#: includes/shortcodes.php:1090
+msgid "Content"
+msgstr ""
+
+#: includes/shortcodes.php:1095
+msgid "Background Image"
+msgstr ""
+
+#: includes/shortcodes.php:1101
+msgid "Background Color"
+msgstr ""
+
+#: includes/shortcodes.php:1102
+msgid "Choose a solid color instead of an image."
+msgstr ""
+
+#: includes/shortcodes.php:1108
+msgid "Background Style"
+msgstr ""
+
+#: includes/shortcodes.php:1110
+msgid "No Repeat (Left Aligned)"
+msgstr ""
+
+#: includes/shortcodes.php:1111
+msgid "No Repeat (Center Aligned)"
+msgstr ""
+
+#: includes/shortcodes.php:1112
+msgid "No Repeat (Right Aligned)"
+msgstr ""
+
+#: includes/shortcodes.php:1113
+msgid "Tile"
+msgstr ""
+
+#: includes/shortcodes.php:1114
+msgid "Tile Horizontally"
+msgstr ""
+
+#: includes/shortcodes.php:1115
+msgid "Tile Vertically"
+msgstr ""
+
+#: includes/shortcodes.php:1122
+msgid "Minimum Height (in pixels)"
+msgstr ""
+
+#: includes/shortcodes.php:1123
+msgid "Set the minimum height for this section."
+msgstr ""
+
+#: includes/shortcodes.php:1129
+msgid "Top Padding (in pixels)"
+msgstr ""
+
+#: includes/shortcodes.php:1135
+msgid "Bottom Padding (in pixels)"
+msgstr ""
+
+#: includes/shortcodes.php:1187
+msgid "View"
+msgstr ""
+
+#: includes/shortcodes.php:1213
+#, php-format
+msgid "You have not created a %1$s yet, in order to display correctly you'll need at least 1 %2$s."
+msgstr ""
+
+#: includes/shortcodes.php:1224
+msgid "Get Help"
+msgstr ""
+
+#: includes/shortcodes.php:1237
+#, php-format
+msgid "%1$s &rarr;"
+msgstr ""
+
+#: includes/page_template_options/template-coaches.php:15
+msgid "Coach Template Options"
+msgstr ""
+
+#: includes/page_template_options/template-galleries.php:15
+msgid "Galleries Template Options"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:15
+msgid "Home Template Options"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:21
+msgid "Slider"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:27
+msgid "Page Slider"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:28
+msgid "Select which, if any, slider you'd like on this page"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:44
+#: includes/page_template_options/template-home.php:72
+#, php-format
+msgid "%1$s Carousel"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:50
+#: includes/page_template_options/template-home.php:78
+#: includes/page_template_options/template-home.php:106
+#: includes/page_template_options/template-home.php:134
+#: includes/page_template_options/template-home.php:211
+msgid "Enable Section"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:51
+#: includes/page_template_options/template-home.php:79
+#: includes/page_template_options/template-home.php:107
+#: includes/page_template_options/template-home.php:135
+#: includes/page_template_options/template-home.php:212
+msgid "Select No to hide this section from the template."
+msgstr ""
+
+#: includes/page_template_options/template-home.php:100
+#: includes/page_template_options/template-home.php:128
+#, php-format
+msgid "%1$s List"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:168
+#: includes/shortcodes/t2t_shortcode_highlighted_gallery.class.php:51
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:40
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:40
+#: includes/shortcodes/t2t_shortcode_location.class.php:22
+msgid "Title"
+msgstr ""
+
+#: includes/page_template_options/template-home.php:169
+#: includes/shortcodes/t2t_shortcode_highlighted_gallery.class.php:52
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:41
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:41
+#: includes/shortcodes/t2t_shortcode_location.class.php:23
+msgid "Leave blank to not display a title."
+msgstr ""
+
+#: includes/page_template_options/template-home.php:205
+msgid "Location"
+msgstr ""
+
+#: includes/page_template_options/template-programs.php:15
+msgid "Progam Template Options"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:46
+msgid "Number of Posts"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:47
+msgid "Choose how many posts you'd like displayed."
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:54
+msgid "Post Description Length"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:61
+msgid "Highlighted Post Description Length"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:80
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:73
+#, php-format
+msgid "Select a specific category to list %1$s for."
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_highlighted_post_list.class.php:82
+#: includes/shortcodes/t2t_shortcode_highlighted_testimonial_list.class.php:75
+msgid "Select a Category"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:28
+msgid "Name"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:33
+msgid "Address"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:38
+msgid "Address Details"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:43
+msgid "City"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:48
+msgid "State / Province"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:53
+msgid "Postal Code"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:58
+msgid "Country"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:63
+msgid "Phone Number"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_location.class.php:145
+msgid "Get Directions"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:52
+#, php-format
+msgid "Choose a specific %1$s you'd like a schedule displayed for."
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:54
+#, php-format
+msgid "Select a %1$s"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:59
+msgid "Show Program Filter?"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:60
+#, php-format
+msgid "Whether or not to include a list of programs that will allow visitors to filter your %1$s."
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:70
+msgid "Opening Time"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:71
+msgid "Where to start the time for this schedule."
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:77
+msgid "Closing Time"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:78
+msgid "Where to end the time for this schedule."
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:149
+msgid "Sunday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:150
+msgid "Monday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:151
+msgid "Tuesday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:152
+msgid "Wednesday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:153
+msgid "Thursday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:154
+msgid "Friday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:155
+msgid "Saturday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:261
+msgid "All Programs"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:320
+msgid "sunday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:321
+msgid "monday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:322
+msgid "tuesday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:323
+msgid "wednesday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:324
+msgid "thursday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:325
+msgid "friday"
+msgstr ""
+
+#: includes/shortcodes/t2t_shortcode_schedule.class.php:326
+msgid "saturday"
+msgstr ""
+
+#: includes/widgets/t2t_widget_cf_journal.class.php:21
+msgid "CrossFit Journal Link"
+msgstr ""
+
+#: includes/widgets/t2t_widget_cf_journal.class.php:23
+msgid "Display a link to the CrossFit Journal (required for all CrossFit Affiliates)."
+msgstr ""
+
+#: includes/widgets/t2t_widget_cf_journal.class.php:43
+msgid "Image Style"
+msgstr ""
+
+#: includes/widgets/t2t_widget_cf_journal.class.php:44
+msgid "Choose the style of the CrossFit Journal banner you'd like to use."
+msgstr ""
+
+#: includes/widgets/t2t_widget_cf_journal.class.php:46
+msgid "Graphic"
+msgstr ""
+
+#: includes/widgets/t2t_widget_cf_journal.class.php:47
+msgid "White Text"
+msgstr ""
+
+#: includes/widgets/t2t_widget_cf_journal.class.php:48
+msgid "Black Text"
+msgstr ""
+
+#: includes/widgets/t2t_widget_cf_journal.class.php:67
+msgid "CrossFit Journal: The Performance-Based Lifestyle Resource"
+msgstr ""
+
+#: includes/widgets/t2t_widget_mobility_wod.class.php:21
+msgid "MobilityWOD Link"
+msgstr ""
+
+#: includes/widgets/t2t_widget_mobility_wod.class.php:23
+msgid "Display a link to the MobilityWOD website."
+msgstr ""
+
